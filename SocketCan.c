@@ -2,7 +2,7 @@
 Includes
 ***********************************************************************************************************************/
 #include "SocketCan.h"
-#include "/mnt/c/Diplomna/CanTP/CanTP.h"
+#include "CanTP.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
