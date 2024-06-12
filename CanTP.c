@@ -5,9 +5,9 @@ Includes
 #include "CanTp.h"
 #include "CanTpCbk.h"
 #include "CanTpPrv.h"
-#include "/mnt/c/Diplomna/TickTimer/TickTimer.h"
-#include "/mnt/c/Diplomna/SocketCan/SocketCan.h"
-#include "/mnt/c/Diplomna/OBDII/Obd2.h"
+#include "TickTimer.h"
+#include "SocketCan.h"
+#include "Obd2.h"
 #include<stddef.h>
 
 /***********************************************************************************************************************
