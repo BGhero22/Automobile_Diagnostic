@@ -103,11 +103,12 @@ void Client::closeConection()
     
     strcpy(data.Req,"End");
     send(sockfd, &data.Req, sizeof(data.Req), 0);
+    std::cout<<"Close conection"<<std::endl;
 }
 
 
 
-void Client::userInput() {
+int Client::userInput() {
 	std::cout << "Press 1 to Read ReaTimeData" << std::endl << "Press 2 to Read Error Codes" << std::endl <<  "Press 3 to Clear Error Codes" << std::endl <<"Press 4 to close current connection" << std::endl;
 
 	while (true) {
@@ -127,6 +128,7 @@ void Client::userInput() {
              break;
         case 4:
                 closeConection();
+			return 0;
 		default:
 			break;
 		}
