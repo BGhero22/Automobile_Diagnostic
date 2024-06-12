@@ -1,7 +1,7 @@
-#include "/mnt/c/Diplomna/CanTP/CanTP.h"
-#include "/mnt/c/Diplomna/OBDII/Obd2.h"
-#include "/mnt/c/Diplomna/SocketCan/SocketCan.h"
-#include "/mnt/c/Diplomna/TCPServer/Server.hpp"
+#include "CanTP.h"
+#include "Obd2.h"
+#include "SocketCan.h"
+#include "Server.hpp"
 
 
 int main(){
