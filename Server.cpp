@@ -4,7 +4,7 @@
 Includes
 ***********************************************************************************************************************/
 #include "Server.hpp"
-#include "/mnt/c/Diplomna/OBDII/Obd2.h"
+#include "Obd2.h"
 #include <chrono>
 #include <thread>
 #include <cstring>
