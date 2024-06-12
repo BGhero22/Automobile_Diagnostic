@@ -3,8 +3,8 @@ Includes
 ***********************************************************************************************************************/
 #include "Obd2.h"
 #include "Obd2_Prv.h"
-#include "/mnt/c/Diplomna/CanTP/CanTP.h"
-#include "/mnt/c/Diplomna/TCPServer/Server.hpp"
+#include "CanTP.h"
+#include "Server.hpp"
 
 /***********************************************************************************************************************
 Macro definitions
