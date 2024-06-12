@@ -33,7 +33,7 @@ public:
     void readRealTimeData(int pid) ;
     void readDTC();
     void clearDtc();
-    void userInput();
+    int userInput();
     void printTheResponse();
 	void closeConection();
 	Data data;
